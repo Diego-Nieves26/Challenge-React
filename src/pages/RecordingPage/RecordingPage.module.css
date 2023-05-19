@@ -1,0 +1,26 @@
+.video_container {
+  width: 100%;
+  min-height: 700px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+
+.video_header {
+  width: 100%;
+  position: relative;
+  min-height: 600px;
+  background-color: black;
+}
+
+.video_body {
+  width: 100%;
+  padding: 1rem;
+  height: 20%;
+}
+
+.video_body > h2 {
+  font-size: 0.9rem;
+  font-weight: normal;
+  width: 35%;
+}

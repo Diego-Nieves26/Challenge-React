@@ -1,0 +1,26 @@
+.video__card_container {
+  width: 100%;
+  max-width: 245px;
+  min-height: 395px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+
+.video__card_header {
+  width: 100%;
+  position: relative;
+  min-height: 335px;
+  background-color: black;
+}
+
+.video__card_body {
+  width: 100%;
+  padding: 0.5rem;
+  height: 20%;
+}
+
+.video__card_body > h2 {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
