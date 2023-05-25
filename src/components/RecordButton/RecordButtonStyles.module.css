@@ -1,9 +1,14 @@
+.record__button_container {
+  position: absolute;
+  bottom: var(--spacing);
+  left: var(--spacing);
+  display: flex;
+  gap: 0.5rem;
+}
+
 .record__button {
   width: 3rem;
   aspect-ratio: 1;
   background-color: #c4c4c4;
   border-radius: 50%;
-  position: absolute;
-  bottom: var(--spacing);
-  left: var(--spacing);
 }

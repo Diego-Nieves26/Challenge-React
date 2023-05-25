@@ -12,6 +12,12 @@
   position: relative;
   min-height: 335px;
   background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.video__card_header > video {
+  width: 100%;
 }
 
 .video__card_body {
